@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Project -->
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <!-- Build -->
+  <PropertyGroup>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants />
+  </PropertyGroup>
+
+  <!-- Assembly -->
+  <PropertyGroup>
+    <AssemblyVersion>0.0.1.0</AssemblyVersion>
+    <FileVersion>0.0.1.0</FileVersion>
+  </PropertyGroup>
+
+  <!-- Package -->
+  <PropertyGroup>
+    <PackageId>PingDong.CleanArchitect.Infrastructure.SqlServer.Testing</PackageId>
+    <Description>Providing clean architect facilities</Description>
+    <Version>0.0.1.0</Version>
+    <Authors>Ping Dong</Authors>
+    <Copyright>Copyright (c) 2019 Ping Dong</Copyright>
+    <RepositoryUrl>https://github.com/pingdong/dotnet.cleanarchitect.infrastructure.testing</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>dotnet library</PackageTags>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/pingdong/dotnet.cleanarchitect.infrastructure.testing</PackageProjectUrl>
+  </PropertyGroup>
+
+  <!-- Reference -->
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="2.2.6" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
+    <PackageReference Include="PingDong.CleanArchitect.Infrastructure.SqlServer" Version="0.0.1.2" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <DotNetCliToolReference Include="dotnet-xunit" Version="2.3.1" />
+  </ItemGroup>
+
+</Project>
