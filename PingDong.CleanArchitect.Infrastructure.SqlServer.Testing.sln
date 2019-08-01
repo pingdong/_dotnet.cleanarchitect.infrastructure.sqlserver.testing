@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.SqlServer.Testing", "src\Infrastructure.SqlServer.Testing\Infrastructure.SqlServer.Testing.csproj", "{6ABBE0A0-487E-47FE-B5F9-B42F6E1BD3FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.SqlServer.Testing", "src\Infrastructure.SqlServer.Testing\CleanArchitect.Infrastructure.SqlServer.Testing.csproj", "{6ABBE0A0-487E-47FE-B5F9-B42F6E1BD3FF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.SqlServer.Testing.UnitTests", "src\Infrastructure.SqlServer.Testing.UnitTests\Infrastructure.SqlServer.Testing.UnitTests.csproj", "{CD6648FE-D5FC-4630-9E3D-E99CB3FD893F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.SqlServer.Testing.UnitTests", "src\Infrastructure.SqlServer.Testing.UnitTests\CleanArchitect.Infrastructure.SqlServer.Testing.UnitTests.csproj", "{CD6648FE-D5FC-4630-9E3D-E99CB3FD893F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
