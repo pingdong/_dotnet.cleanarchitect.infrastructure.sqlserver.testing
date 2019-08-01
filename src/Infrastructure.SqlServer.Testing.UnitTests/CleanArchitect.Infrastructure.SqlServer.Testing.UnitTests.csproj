@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Infrastructure.SqlServer.Testing\Infrastructure.SqlServer.Testing.csproj" />
+    <ProjectReference Include="..\Infrastructure.SqlServer.Testing\CleanArchitect.Infrastructure.SqlServer.Testing.csproj" />
   </ItemGroup>
 
 </Project>
